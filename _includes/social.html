@@ -5,7 +5,8 @@
   <!-- Weibo -->
   <li class="navigation__item">
     <a href="http://weibo.com/{{site.social.weibo}}" title="@{{site.social.weibo}} 的微博" target="_blank">
-      <i class='social fa fa-weibo'></i>
+      <i class='social fa fa-weibo fa-2x'></i>
+      <!-- <i class='iconfont iconxinlang' style='font-size:28px;color:white;'></i> -->
       <span class="label">Weibo</span>
     </a>
   </li>
@@ -15,7 +16,7 @@
   <!-- Github -->
   <li class="navigation__item">
     <a href="https://github.com/{{site.social.github}}" title="@{{site.social.github}} 的 Github" target="_blank">
-      <i class='social fa fa-github'></i>
+      <i class='social fa fa-github fa-2x'style='color:white;'></i>
       <span class="label">Github</span>
     </a>
   </li>
@@ -44,7 +45,7 @@
   <!-- RSS -->
   <li class="navigation__item">
     <a href="/feed.xml" rel="author" title="RSS" target="_blank">
-      <i class='social fa fa-rss'></i>
+      <i class='social fa fa-rss'style='font-size:28px;color:white;'></i>
       <span class="label">RSS</span>
     </a>
   </li>
@@ -53,17 +54,28 @@
   <!-- Email -->
   <li class="navigation__item">
     <a href="mailto:{{site.social.mail}}" title="Contact me">
-      <i class='social fa fa-envelope'></i>
+      <i class='social fa fa-envelope'style="font-size:28px;color:white;"></i>
       <span class="label">Email</span>
     </a>
   </li>
   {% endif %}
 
-  {% if site.social.jianshu %}
-  <!-- Zhihu -->
-  <li class="navigation--social">
-    <a href="https://www.jianshu.com/u/{{site.social.jianshu}}" title="@{{site.social.jianshu}}" target="_blank">
-      <div class="footer-social-icon" style="background:url(/assets/images/jianshu.png);"></div>
+  {% if site.social.bilibili %}
+  <!-- Bilibili -->
+  <li class="navigation__item">
+    <a href="https://space.bilibili.com/{{site.social.bilibili}}" title="@{{site.social.bilibili}}" target="_blank">
+      <i class='iconfont iconbilibilidonghua' style='font-size:30px;color:white;'></i>
+      <span class="label">Bilibili</span>
+    </a>
+  </li>
+  {% endif %}
+
+  {% if site.social.weixin %}
+  <!-- Weixin -->
+  <li class="navigation__item">
+    <a href="https://space.bilibili.com/{{site.social.bilibili}}" title="@{{site.social.bilibili}}" target="_blank">
+      <i class='iconfont iconweixingongzhonghao' style='font-size:28px;color:white;'></i>
+      <span class="label">Weixin</span>
     </a>
   </li>
   {% endif %}
