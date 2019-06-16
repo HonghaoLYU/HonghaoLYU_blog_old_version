@@ -3,11 +3,11 @@ layout: page
 title: 关于我 
 ---
 
-一个 iOS SDK 开发者，喜欢研究一些新技术。
+一名在读研究生，科研相关ROS、机器人人机交互。
 <p>
 平时喜欢整理个人博客，逛逛技术论坛。
 <p>
-了解一些 前端 基本概念和 Python 的简单用法。
+了解一些 ROS基本框架概念 和 Python，C，CPP 的简单用法。
 
 <p>
 
@@ -30,13 +30,6 @@ title: 关于我
 <p> 
 
 博客源码在 <a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io/'>Github</a> 上，你的 Star 是我更新的动力，谢谢~
-
-<p> 
-
-<p> 
-
-<p> 
-
 
 {% include comments.html %}
 
