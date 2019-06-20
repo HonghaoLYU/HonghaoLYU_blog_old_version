@@ -1,9 +1,31 @@
 ---
 layout: page
-title: about me 
 ---
 
-一个 iOS SDK 开发者，喜欢研究一些新技术。
+<h2> Research </h2>
+
+<p> 
+<a href="/2016/10/jekyll_tutorials1/"> Human-robot Interaction </a>
+<p>
+
+<p> 
+<a href="/2016/10/jekyll_tutorials1/"> Robot Tele-Operation </a>
+<p>
+
+<p> 
+<a href="/2016/10/jekyll_tutorials1/"> ROS-Distributed System </a>
+<p>
+
+<h2> Publication </h2>
+
+
+<h2> Project </h2>
+
+
+<h2> Post </h2>
+
+<h2> Follow Me </h2> 
+
 <p>
 平时喜欢整理个人博客，逛逛技术论坛。
 <p>

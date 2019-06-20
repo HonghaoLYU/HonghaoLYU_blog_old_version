@@ -287,7 +287,7 @@ td:last-child {
   .content-wrapper__inner {
     margin: 0 10%;
     padding: 50px 0;
-    max-width: 850px;
+    max-width: 1100px;
   }
 
 .footer {
@@ -314,6 +314,34 @@ td:last-child {
 
   }
 
+  .menu {
+    // display: block;
+    // padding: 2em 0 0 0;
+    // border-top: 2px solid $gray-light;
+    font-size: .7em;
+    color: lighten($gray-dark, 10%);
+  }
+  
+  .menu__copyright {
+    display: block;
+    margin-bottom: .7em;
+    text-align: center;
+    // float: left;
+    // padding: 2em 0 0 0;
+    border-bottom: 20px groove $blue;
+    a {
+      color: lighten($blue, 0%);
+      // text-decoration: underline;
+      font-size: 28px;
+      font-weight: bold;
+
+      &:hover {
+        color: $gray-darker;
+      }
+
+    }
+
+  }
 // ------------------------------
 // AVATAR & LOGO
 // ------------------------------
