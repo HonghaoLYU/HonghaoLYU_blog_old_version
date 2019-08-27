@@ -1,27 +1,48 @@
 <!DOCTYPE html>
 <html>
+{% include head.html %}
 
-  {% include head.html %}
+<body>
 
-  <body>
+  <span class="mobile btn-mobile-menu">
+    <i class="fa fa-list btn-mobile-menu__icon"></i>
+    <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
+  </span>
 
-    <span class="mobile btn-mobile-menu">
-        <i class="fa fa-list btn-mobile-menu__icon"></i>
-        <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
-    </span>
-    
-    {% include side-panel.html %}
+  {% include side-panel.html %}
 
-    <div class="content-wrapper">
-        <div class="content-wrapper__inner">
-            {% include menu.html %}
-            {{ content }}
-            {% include footer.html %}
-        </div>
+  <div class="content-wrapper">
+
+    <div id="menu_english" class="content-wrapper__inner">
+      {% include menu_english.html %}
     </div>
-    
-    {% include external.html %}
-    
-  </body>
+
+    <div id="menu_chinese" class="content-wrapper__inner">
+      {% include menu_chinese.html %}
+    </div>
+
+    <div id="div2" class="content-wrapper__inner">
+      {{ content }}
+      {% include footer.html %}
+    </div>
+
+    <script type="text/javascript">
+      var currentUrl = window.location.pathname;
+      // alert(currentUrl);
+      document.getElementById("menu_english").style.display = "none";
+      document.getElementById("menu_chinese").style.display = "none";
+      if (currentUrl == "/english") {
+        document.getElementById("menu_english").style.display = "block";
+      }
+      else if(currentUrl == "/chinese") {
+        document.getElementById("menu_chinese").style.display = "block";
+      }
+    </script>
+
+  </div>
+
+  {% include external.html %}
+
+</body>
 
 </html>

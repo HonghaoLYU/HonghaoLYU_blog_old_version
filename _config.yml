@@ -18,7 +18,7 @@ subtitle: Lhhzing's hiding place
 welcome_message: <a href="/assets/documents/CV.pdf" target="_blank">Download my CV</a>
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
- Some sharing and posts of my daily and projects.
+ Some sharing and posts of my daily and research.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -29,18 +29,6 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
 cover_color: blue
@@ -53,12 +41,6 @@ chinese_button:
 english_button:
     title: English
     description: My English Main Page
-
-# Navigation buttons in the front page.
-
-# nav:
-#     - {title: 中文, description: My Chinese Main Page, url: '/chinese'}
-#     - {title: English, description: My English Main Page, url: '/english'}
 
 # Social
 social:
