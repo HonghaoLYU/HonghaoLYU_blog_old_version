@@ -23,7 +23,14 @@
 
     <div id="div2" class="content-wrapper__inner">
       {{ content }}
-      {% include footer.html %}
+    </div>
+
+    <div id="footer_english" class="content-wrapper__inner">
+      {% include footer_english.html %}
+    </div>
+
+    <div id="footer_chinese" class="content-wrapper__inner">
+      {% include footer_chinese.html %}
     </div>
 
     <script type="text/javascript">
@@ -31,11 +38,15 @@
       // alert(currentUrl);
       document.getElementById("menu_english").style.display = "none";
       document.getElementById("menu_chinese").style.display = "none";
+      document.getElementById("footer_english").style.display = "none";
+      document.getElementById("footer_chinese").style.display = "none";
       if (currentUrl == "/english") {
         document.getElementById("menu_english").style.display = "block";
+        document.getElementById("footer_english").style.display = "block";
       }
-      else if(currentUrl == "/chinese") {
+      else if (currentUrl == "/chinese") {
         document.getElementById("menu_chinese").style.display = "block";
+        document.getElementById("footer_chinese").style.display = "block";
       }
     </script>
 

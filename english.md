@@ -4,5 +4,5 @@ layout: page
 
 
 
-{% include comments.html %}
+<!-- {% include comments.html %} -->
 

@@ -315,34 +315,25 @@ td:last-child {
   }
 
   .menu {
-    // display: block;
-    // padding: 2em 0 0 0;
-    // border-top: 2px solid $gray-light;
-    font-size: 28px;
+    display: block;
+    padding: 0 2em 0  0;
+    font-size: 1.8em;
     color: lighten($gray-dark, 10%);
-    
   }
   
-  .menu__copyright {
-    display: block;
-    margin-bottom: .7em;
-    text-align: center;
-    // float: left;
-    // padding: 2em 0 0 0;
-    border-bottom: 20px groove $blue;
-    a {
-      color: lighten($blue, 0%);
-      // text-decoration: underline;
-      font-size: 28px;
-      font-weight: bold;
-
-      &:hover {
-        color: $gray-darker;
+    .menu__copyright {
+      display: block;
+      margin-bottom: .7em;
+      text-align: center;
+      a {
+        color: cornflowerblue;
+        font-weight: bold;
+        font-family:Arial,Verdana,Sans-serif;
+        &:hover {
+          color: $gray-dark;
+        }
       }
-
     }
-
-  }
 // ------------------------------
 // AVATAR & LOGO
 // ------------------------------
