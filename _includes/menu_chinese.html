@@ -1,15 +1,39 @@
 <section class="menu">
         <div>
                 <span class="menu__copyright">
-                <a href="/chinese">主页</a>
-                <a>&nbsp &nbsp </a>
-                <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">项目</a>
-                <a>&nbsp &nbsp </a>
-                <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">发表</a>
-                <a>&nbsp &nbsp </a>
-                <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">分享</a>
-                <a>&nbsp &nbsp </a>
-                <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">关注</a>
+
+                        <a id="menuCn_home" href="/chinese/home">主页</a>
+                        <a>&nbsp &nbsp </a>
+                        <a id="menuCn_projects" href="/chinese/projects">项目</a>
+                        <a>&nbsp &nbsp </a>
+                        <a id="menuCn_research" href="/chinese/research">研究</a>
+                        <a>&nbsp &nbsp </a>
+                        <a id="menuCn_share" href="/chinese/share">分享</a>
+                        <a>&nbsp &nbsp </a>
+                        <a id="menuCn_follow" href="/chinese/follow">关注</a>
+
+                        <!-- 更改点击后菜单栏显示效果 -->
+                        <script type="text/javascript">
+                                var currentUrl = window.location.pathname;
+                                currentUrl = currentUrl.match(/chinese(\S*)/)[1];
+                                alert(currentUrl);
+                                if (currentUrl == "/home") {
+                                        document.getElementById("menuCn_home").style.color = "#3366FF";
+                                }
+                                else if (currentUrl == "/projects") {
+                                        document.getElementById("menuCn_pSSrojects").style.color = "#3366FF";
+                                }
+                                else if (currentUrl == "/research") {
+                                        document.getElementById("menuCn_research").style.color = "#3366FF";
+                                }
+                                else if (currentUrl == "/share") {
+                                        document.getElementById("menuCn_share").style.color = "#3366FF";
+                                }
+                                else if (currentUrl == "/follow") {
+                                        document.getElementById("menuCn_follow").style.color = "#3366FF";
+                                }
+                        </script>
+
                 </span>
         </div>
 </section>

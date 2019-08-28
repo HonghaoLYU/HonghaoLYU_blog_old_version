@@ -35,16 +35,17 @@
 
     <script type="text/javascript">
       var currentUrl = window.location.pathname;
+      currentUrl = currentUrl.slice(0,4);
       // alert(currentUrl);
       document.getElementById("menu_english").style.display = "none";
       document.getElementById("menu_chinese").style.display = "none";
       document.getElementById("footer_english").style.display = "none";
       document.getElementById("footer_chinese").style.display = "none";
-      if (currentUrl == "/english") {
+      if (currentUrl == "/eng") {
         document.getElementById("menu_english").style.display = "block";
         document.getElementById("footer_english").style.display = "block";
       }
-      else if (currentUrl == "/chinese") {
+      else if (currentUrl == "/chi") {
         document.getElementById("menu_chinese").style.display = "block";
         document.getElementById("footer_chinese").style.display = "block";
       }
