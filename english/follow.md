@@ -2,5 +2,5 @@
 layout: page
 ---
 
-<h2>Contacts</h2>
+<h3>Contacts</h3>
 Email: lvhonghao@zju.edu.cn

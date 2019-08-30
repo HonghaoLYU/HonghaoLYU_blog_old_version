@@ -2,7 +2,7 @@
 // BASICS
 // ------------------------------
 
-html, body {
+html,body {
   height: 100%;
 }
 
@@ -20,11 +20,12 @@ body {
 }
 
 ::selection {
-  background: lighten($primary-color, 36%);
+  background: lighten($blue, 36%);
 }
 
+// 适配firefox
 ::-moz-selection {
-  background: lighten($primary-color, 36%);
+  background: lighten($blue, 36%);
 }
 
 // ------------------------------
@@ -37,26 +38,21 @@ a {
 
   &:hover {
     color: $hover-color;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
+    -o-transition:.5s; // 兼容 Opera
+    -ms-transition:.5s;  
+    -moz-transition:.5s; // 兼容 Firefox
+    -webkit-transition:.5s; // 兼容 Safari and Chrome
   }
 
 }
 
 video {
-    display: block;
-    margin: 10px auto;
-    text-align: center;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h5 {
+h1,h2,h3,h4,h5 {
   margin-top: 1.0em;
   margin-bottom: .5em;
   font-family: $serif-font;
@@ -70,15 +66,18 @@ h1 {
   font-size: 2.5em;
   line-height: 1.2em;
   letter-spacing: .05em;
-  text-align: center;
+  // text-align: center;
+  font-weight: bold;
 }
 
 h2 {
   font-size: 2.0em;
+  font-weight: bold;
 }
 
 h3 {
   font-size: 1.6em;
+  font-weight: bold;
 }
 
 h4 {
@@ -94,8 +93,9 @@ h5 {
 }
 
 p {
-  margin-bottom: 1.3em;
-  line-height: 1.7em;
+  text-indent: 1em;
+  margin-bottom: 0.5em;
+  line-height: 1.5em;
 }
 
 strong {
@@ -186,11 +186,11 @@ table {
   color: $gray-darkest;
   font-size: .9em;
   text-align: center;
-  line-height: 40px;
+  line-height: 1.5em;
   border-spacing: 0;
   border: 0px solid darken($primary-color, 10%);
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0 0;
 }
 
 thead tr:first-child {
@@ -200,16 +200,16 @@ thead tr:first-child {
 }
 
 th {font-weight: bold;}
-th:first-child, td:first-child {padding: 0 15px 0 20px;}
+th:first-child, td:first-child {padding: 0 10px 0 0;}
 
 thead tr:last-child th {
-    border-bottom: 1px solid $gray-light;
+  border-bottom: 0px solid $gray-light;
 }
 
 tbody tr:last-child td {border: none;}
 tbody td {
-    border-bottom: 1px solid $gray-light;
-    font-size: .85em;
+  border-bottom: 0px solid $gray-light;
+  font-size: 1em;
 }
 
 td:last-child {
@@ -321,8 +321,6 @@ td:last-child {
       margin:0 0 0 0;
       padding: 5px 0 0 0;
       font-size: 1em;
-      // text-align: center;
-      // width: 100%;
     }
   }
 
@@ -351,7 +349,6 @@ td:last-child {
           padding: 0 0 0 0;
           font-size: 0.8em;
           text-align: center;
-          // width: 100%;
         }
 
         @media screen and (max-width: 840px) {
@@ -359,15 +356,13 @@ td:last-child {
           padding: 0 0 0 0;
           font-size: 0.8em;
           text-align: center;
-          // width: 100%;
         }
 
         @media screen and (max-width: 540px) {
           margin:0 0 0 0;
           padding: 0 0 0 0;
-          font-size: 0.45em;
+          font-size: 0.48em;
           text-align: center;
-          // width: 100%;
         }
 
       }

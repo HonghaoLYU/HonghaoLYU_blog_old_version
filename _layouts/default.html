@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 {% include head.html %}
 
 <body>
@@ -21,7 +22,7 @@
       {% include menu_chinese.html %}
     </div>
 
-    <div id="div2" class="content-wrapper__inner">
+    <div id="div2" class="content-wrapper__inner" style="padding: 0">
       {{ content }}
     </div>
 
@@ -35,7 +36,7 @@
 
     <script type="text/javascript">
       var currentUrl = window.location.pathname;
-      currentUrl = currentUrl.slice(0,4);
+      currentUrl = currentUrl.slice(0, 4);
       // alert(currentUrl);
       document.getElementById("menu_english").style.display = "none";
       document.getElementById("menu_chinese").style.display = "none";
@@ -51,7 +52,10 @@
       }
     </script>
 
-  </div>
+    <!-- <script type="text/javascript" id="clustrmaps"
+      src="//cdn.clustrmaps.com/map_v2.js?d=fOc5aoCV4fO9g_bGatLrByHmh3A_eVd6ZIAbPpmMpFY&cl=ffffff&w=a"></script>
+
+  </div> -->
 
   {% include external.html %}
 
