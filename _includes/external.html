@@ -15,9 +15,96 @@
 </script>
 {% endif %}
 
-<script>
+<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-app.js"></script>
 
-$.getJSON('http://ipinfo.io?token=53c5bf38a9e562', function(data){
-    // alert(data.ip);
-});
+<!-- Add Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-database.js"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first
+    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script> -->
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<!-- Loads the entire Firebase JavaScript SDK -->
+<!-- <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script> -->
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyDhNiqEKaAWCfb9PWixjJlYfqNKhcxmKkM",
+        authDomain: "my-blog-fe3cf.firebaseapp.com",
+        databaseURL: "https://my-blog-fe3cf.firebaseio.com",
+        projectId: "my-blog-fe3cf",
+        storageBucket: "",
+        messagingSenderId: "849972739117",
+        appId: "1:849972739117:web:56a7d58f595fc3ad"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+    var bigOne = document.getElementById('bigOne');
+    // var dbRef = firebase.database().ref().child('text');
+    // dbRef.on('value', snap => bigOne.innerText = snap.val());
+
+    $.getJSON('https://api.ipify.org?format=json', function (data) {
+        // var imageUrl = data.ip;
+        sessionStorage.setItem("allJson", JSON.stringify(data.ip));
+    });
+
+    var userIp = JSON.parse(sessionStorage.getItem("allJson"));
+
+    function getTime() {     	//获取时间
+        var date = new Date();
+
+        var year = date.getFullYear();
+        var month = date.getMonth();
+        var day = date.getDate();
+
+        var hour = date.getHours();
+        var minute = date.getMinutes();
+        var second = date.getSeconds();
+
+        //这样写显示时间在1~9会挤占空间；所以要在1~9的数字前补零;
+        if (hour < 10) {
+            hour = '0' + hour;
+        }
+        if (minute < 10) {
+            minute = '0' + minute;
+        }
+        if (second < 10) {
+            second = '0' + second;
+        }
+
+        var x = date.getDay();//获取星期
+        var time = year + '/' + month + '/' + day + '/' + hour + ':' + minute + ':' + second
+        return time;
+    }
+
+    var userTime = getTime();
+    // alert(userTime);
+
+    function writeUserData(userIp, userTime) {
+        firebase.database().ref('time' + userTime).set({
+            ip: userIp,
+            time: userTime
+        });
+    }
+
+    writeUserData(userIp, userTime);
+    
 </script>
+
+<!-- <script>
+    $.getJSON('https://api.ipify.org?format=json', function (data) {
+        alert(data.ip);
+    });
+</script> -->
+
+<!-- <script>
+    $.getJSON('http://ipinfo.io?token=53c5bf38a9e562', function (data) {
+        alert(data.ip);
+    });
+</script> -->
