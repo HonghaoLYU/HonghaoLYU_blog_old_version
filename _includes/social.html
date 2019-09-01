@@ -72,6 +72,26 @@
   </li>
   {% endif %}
 
+  {% if site.social.researchgate %}
+  <!-- Researchgate -->
+  <li class="navigation__item">
+    <a href="https://www.researchgate.net/profile/{{site.social.researchgate}}" title="@{{site.social.researchgate}}" target="_blank">
+      <i class='iconfont iconresearchgate' style='font-size:28px;color:white;'></i>
+      <span class="label">Researchgate</span>
+    </a>
+  </li>
+  {% endif %}
+
+  {% if site.social.googlescholar %}
+  <!-- Googlescholar -->
+  <li class="navigation__item">
+    <a href="https://scholar.google.com/citations?user={{site.social.researchgate}}" title="@{{site.social.googlescholar}}" target="_blank">
+      <i class='iconfont icongoogle-scholar' style='font-size:28px;color:white;'></i>
+      <span class="label">Googlescholar</span>
+    </a>
+  </li>
+  {% endif %}
+
   <!-- RSS -->
   <li class="navigation__item">
     <a href="/feed.xml" rel="author" title="RSS" target="_blank">
