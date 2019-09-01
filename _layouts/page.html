@@ -7,40 +7,89 @@ layout: default
   {{ content }}
 </section>
 
-<ul id = "postlist_chinese">
+<ul id="postlist_chinese">
   {% for post in site.categories.chinese %}
   <li>
-      <h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h2>
-      <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
-      <div class="post-list__meta"><time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">{{ post.date | date: "%F"}}</time> &#8226; <span class="post-list__meta--tags tags">{{ post.tags | join:' ' }}</span><a class="btn-border-small" href={{ post.url }}>继续阅读</a></div>
-      <hr class="post-list__divider" />
+    <h2 class="post-list__post-title post-title"><a href="{{ post.url }}"
+        title="访问 {{ post.title }}">{{ post.title }}</a></h2>
+    <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
+    <div class="post-list__meta"><time datetime="{{post.date | date: date_to_xmlschema}}"
+        class="post-list__meta--date date">{{ post.date | date: "%F"}}</time> &#8226; <span
+        class="post-list__meta--tags tags">{{ post.tags | join:' ' }}</span><a class="btn-border-small"
+        href={{ post.url }}>继续阅读</a></div>
+    <hr class="post-list__divider" />
   </li>
   {% endfor %}
 </ul>
 
-<ul id = "postlist_english">
-    {% for post in site.categories.english %}
-    <li>
-        <h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h2>
-        <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
-        <div class="post-list__meta"><time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">{{ post.date | date: "%F"}}</time> &#8226; <span class="post-list__meta--tags tags">{{ post.tags | join:' ' }}</span><a class="btn-border-small" href={{ post.url }}>继续阅读</a></div>
-        <hr class="post-list__divider" />
-    </li>
-    {% endfor %}
-  </ul>
+<ul id="postlist_english">
+  {% for post in site.categories.english %}
+  <li>
+    <h2 class="post-list__post-title post-title"><a href="{{ post.url }}"
+        title="访问 {{ post.title }}">{{ post.title }}</a></h2>
+    <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
+    <div class="post-list__meta"><time datetime="{{post.date | date: date_to_xmlschema}}"
+        class="post-list__meta--date date">{{ post.date | date: "%F"}}</time> &#8226; <span
+        class="post-list__meta--tags tags">{{ post.tags | join:' ' }}</span><a class="btn-border-small"
+        href={{ post.url }}>继续阅读</a></div>
+    <hr class="post-list__divider" />
+  </li>
+  {% endfor %}
+</ul>
 
-  <script type="text/javascript">
-    var currentUrl = window.location.pathname;
-    currentUrl = currentUrl.slice(0, 14);
-    // alert(currentUrl);
-    document.getElementById("postlist_chinese").style.display = "none";
-    document.getElementById("postlist_english").style.display = "none";
-    if (currentUrl == "/chinese/posts") {
-      document.getElementById("postlist_chinese").style.display = "block";
+<script type="text/javascript">
+  var currentUrl = window.location.pathname;
+  currentUrl = currentUrl.slice(0, 14);
+  // alert(currentUrl);
+  document.getElementById("postlist_chinese").style.display = "none";
+  document.getElementById("postlist_english").style.display = "none";
+  if (currentUrl == "/chinese/posts") {
+    document.getElementById("postlist_chinese").style.display = "block";
+  }
+  else if (currentUrl == "/english/posts") {
+    document.getElementById("postlist_english").style.display = "block";
+  }
+</script>
+
+<script type="text/javascript">
+  var banner = document.getElementById('banner');
+  var imglist = document.getElementById('img-list').getElementsByTagName("li");
+  var list = document.getElementById('list').getElementsByTagName('span');
+  var index = 0;
+  var timer = null;
+  //设置自动播放函数
+  function autoPlay() {
+    if (++index >= imglist.length) { index = 0 };
+    changeImg(index);
+  }
+  // 鼠标划过整个容器时停止自动播放
+  banner.onmouseover = function () {
+    clearInterval(timer);
+  }
+  // 鼠标离开整个容器时继续播放至下一张
+  banner.onmouseout = function () {
+    timer = setInterval(autoPlay, 2000);
+  }
+  // 定义并调用自动播放函数
+  timer = setInterval(autoPlay, 2000);
+  // 接着定义图片的切换函数
+  // 定义图片切换函数
+  function changeImg(curIndex) {
+    for (var i = 0; i < imglist.length; i++) {
+      imglist[i].style.display = "none";
+      list[i].className = "";
     }
-    else if (currentUrl == "/english/posts") {
-      document.getElementById("postlist_english").style.display = "block";
-    }
-  </script>
+    imglist[curIndex].style.display = "block";
+    list[curIndex].className = "on";
+  }
+
+  for (var i = 0; i < list.length; i++) {
+    list[i].index = i;
+    list[i].onmouseover = function () {
+      clearInterval(timer);
+      changeImg(this.index);
+    };
+  }
+</script>
 
 </html>

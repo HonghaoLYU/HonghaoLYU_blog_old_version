@@ -27,11 +27,23 @@ My current research and topic is mainly about robotics, well, robotics is a pan 
   </tr>
 </table>
 
-<h2>News</h2>
+<h2>News:</h2>
 <p> 
 comming soon ...
 </p>
 
+<div id="banner">
+  <ul id="img-list">
+    <li><img src="https://honghaolyu.github.io/assets/images/banner1.jpg" alt="1"/></li>
+    <li><img src="https://honghaolyu.github.io/assets/images/banner2.jpg" alt="2"/></li>
+    <li><img src="https://honghaolyu.github.io/assets/images/banner3.jpg" alt="3"/></li>
+  </ul>
+  <div id="list">
+    <span index="1" class="on"></span>
+    <span index="2"></span>
+    <span index="3"></span>
+  </div>
+</div>
 
 
 <!-- {% include comments.html %} -->
