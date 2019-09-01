@@ -7,6 +7,40 @@ layout: default
   {{ content }}
 </section>
 
-</article>
+<ul id = "postlist_chinese">
+  {% for post in site.categories.chinese %}
+  <li>
+      <h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h2>
+      <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
+      <div class="post-list__meta"><time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">{{ post.date | date: "%F"}}</time> &#8226; <span class="post-list__meta--tags tags">{{ post.tags | join:' ' }}</span><a class="btn-border-small" href={{ post.url }}>继续阅读</a></div>
+      <hr class="post-list__divider" />
+  </li>
+  {% endfor %}
+</ul>
+
+<ul id = "postlist_english">
+    {% for post in site.categories.english %}
+    <li>
+        <h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h2>
+        <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
+        <div class="post-list__meta"><time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">{{ post.date | date: "%F"}}</time> &#8226; <span class="post-list__meta--tags tags">{{ post.tags | join:' ' }}</span><a class="btn-border-small" href={{ post.url }}>继续阅读</a></div>
+        <hr class="post-list__divider" />
+    </li>
+    {% endfor %}
+  </ul>
+
+  <script type="text/javascript">
+    var currentUrl = window.location.pathname;
+    currentUrl = currentUrl.slice(0, 14);
+    // alert(currentUrl);
+    document.getElementById("postlist_chinese").style.display = "none";
+    document.getElementById("postlist_english").style.display = "none";
+    if (currentUrl == "/chinese/posts") {
+      document.getElementById("postlist_chinese").style.display = "block";
+    }
+    else if (currentUrl == "/english/posts") {
+      document.getElementById("postlist_english").style.display = "block";
+    }
+  </script>
 
 </html>
