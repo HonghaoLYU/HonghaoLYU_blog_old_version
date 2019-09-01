@@ -25,12 +25,51 @@ layout: page
   </tr>
 </table> -->
 
-<video src="https://honghaolyu.github.io/assets/media/demo.mp4" type="video/mp4" controls="controls" width="500" height="300"> 您的浏览器不支持播放该视频！</video>
+<!-- <video src="https://honghaolyu.github.io/assets/media/demo.mp4" type="video/mp4" controls="controls" width="500" height="300"> 您的浏览器不支持播放该视频！</video> -->
 
 <h2>近況</h2>
-<p> 
-comming soon ...
-</p>
+
+<script src="/js/swiper.min.js"></script>
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"> <img src="https://honghaolyu.github.io/assets/images/banner1.jpg" alt="1"/> Slide 1</div>
+        <div class="swiper-slide"> <img src="https://honghaolyu.github.io/assets/images/banner2.jpg" alt="2"/> Slide 2</div>
+        <div class="swiper-slide"> <img src="https://honghaolyu.github.io/assets/images/banner3.jpg" alt="3"/> Slide 3</div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+    
+    <!-- 如果需要导航按钮 -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    
+    <!-- 如果需要滚动条 -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+</div>
+
+<script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'horizontal', // 垂直切换选项
+    loop: true, // 循环模式选项
+    
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    
+    // 如果需要滚动条
+    // scrollbar: {
+    //   el: '.swiper-scrollbar',
+    // },
+  })        
+</script>
 
 <h2>预告</h2>
 <p> 
