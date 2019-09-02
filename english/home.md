@@ -11,7 +11,7 @@ Thanks for your coming. This is my personal blog, and some of my projects and re
 I am currently a doctoral student Science at Zhejiang University (ZJU). (Feb. 2018 to emmm... I don't know when I can graduate, but I will try my best to get my Ph.D degree.)
 </p>
 <P> 
-My current research and topic is mainly about robotics, well, robotics is a pan concept :( . you can follow up what I am doing from my project sharing. Some codes will open source at the right time, and if you have any questions or interests, please feel free to contact me. For more contact information, see follow.
+My current research and topic is mainly about robotics, well, robotics is a pan concept :( . you can follow up what I am doing from my project sharing. Some codes will open source at the right time in <a href="https://github.com/HonghaoLYU" target="_blank">my GitHub</a>, and if you have any questions or interests, please feel free to contact me. For more contact information, see <a href="/english/follow" target="_blank">Follow</a>.
 </p>
 
 <h2>Education:</h2>
@@ -33,9 +33,18 @@ My current research and topic is mainly about robotics, well, robotics is a pan 
 
 <div class="swiper-container">
     <div class="swiper-wrapper">
-        <div class="swiper-slide"> <img src="https://honghaolyu.github.io/assets/images/banner1.jpg" alt="1"/> Slide 1</div>
-        <div class="swiper-slide"> <img src="https://honghaolyu.github.io/assets/images/banner2.jpg" alt="2"/> Slide 2</div>
-        <div class="swiper-slide"> <img src="https://honghaolyu.github.io/assets/images/banner3.jpg" alt="3"/> Slide 3</div>
+        <div class="swiper-slide" style="text-align:center"> 
+          <a href="https://github.com/HonghaoLYU" target="_blank"> <img src="https://honghaolyu.github.io/assets/images/posts/.jpg" alt="INDIN2019 Helsinki, Finland"/> </a> 
+          <h5>INDIN2019 Helsinki, Finland</h5>
+        </div>
+        <div class="swiper-slide"> 
+          <a href="https://github.com/HonghaoLYU" target="_blank"> <img src="https://honghaolyu.github.io/assets/images/banner1.jpg" alt="1"/> </a> 
+          <h5>INDIN2019 Helsinki, Finland</h5>
+        </div>
+        <div class="swiper-slide"> 
+          <a href="https://github.com/HonghaoLYU" target="_blank"> <img src="https://honghaolyu.github.io/assets/images/banner1.jpg" alt="1"/> </a> 
+          <h5>INDIN2019 Helsinki, Finland</h5>
+        </div>
     </div>
     <!-- 如果需要分页器 -->
     <div class="swiper-pagination"></div>
@@ -52,7 +61,9 @@ My current research and topic is mainly about robotics, well, robotics is a pan 
   var mySwiper = new Swiper ('.swiper-container', {
     direction: 'horizontal', // 垂直切换选项
     loop: true, // 循环模式选项
-    
+    // width: 600px;
+    // height: 300px;
+
     // 如果需要分页器
     pagination: {
       el: '.swiper-pagination',

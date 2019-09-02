@@ -9,7 +9,7 @@ layout: page
 </p>
 
 <P> 
-我当前的研究方向主要与机器人相关，更具体的方向细节你可以去我的 “项目” 和 “研究” 中查看了解。如果您正在做的研究和项目与我相关，欢迎与我联系，更多的联系方式请查阅 “关注”。关于项目的相关代码和程序，会在合适的时间开源，更多开源代码欢迎关注 <a href="https://github.com/HonghaoLYU/HonghaoLYU.github.io" target="_blank">我的GitHub</a> 动态。
+我当前的研究方向主要与机器人相关，更具体的方向细节你可以去我的 “项目” 和 “研究” 中查看了解。如果您正在做的研究和项目与我相关，欢迎与我联系，更多的联系方式请查阅 <a href="/chinese/follow" target="_blank">关注</a>。关于项目的相关代码和程序，会在合适的时间开源，更多开源代码欢迎关注 <a href="https://github.com/HonghaoLYU" target="_blank">我的GitHub</a> 动态。
 </p>
 
 <!-- <h2>教育经历:</h2>
