@@ -34,14 +34,14 @@ My current research and topic is mainly about robotics, well, robotics is a pan 
 <div class="swiper-container">
     <div class="swiper-wrapper">
         <div class="swiper-slide" style="text-align:center"> 
-          <a href="https://github.com/HonghaoLYU" target="_blank"> <img src="https://honghaolyu.github.io/assets/images/posts/.jpg" alt="INDIN2019 Helsinki, Finland"/> </a> 
+          <a href="https://honghaolyu.github.io/english/2019/07/26/INDIN2019-Log.html" target="_blank"> <img src="https://honghaolyu.github.io/assets/images/posts/1-1.jpg" alt="INDIN2019 Helsinki, Finland"/> </a> 
           <h5>INDIN2019 Helsinki, Finland</h5>
         </div>
-        <div class="swiper-slide"> 
+        <div class="swiper-slide" style="text-align:center"> 
           <a href="https://github.com/HonghaoLYU" target="_blank"> <img src="https://honghaolyu.github.io/assets/images/banner1.jpg" alt="1"/> </a> 
           <h5>INDIN2019 Helsinki, Finland</h5>
         </div>
-        <div class="swiper-slide"> 
+        <div class="swiper-slide" style="text-align:center"> 
           <a href="https://github.com/HonghaoLYU" target="_blank"> <img src="https://honghaolyu.github.io/assets/images/banner1.jpg" alt="1"/> </a> 
           <h5>INDIN2019 Helsinki, Finland</h5>
         </div>

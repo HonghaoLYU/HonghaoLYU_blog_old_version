@@ -1,10 +1,11 @@
 ---
 layout: post
-title: INDIN 2019 记录
+title: INDIN 2019 LOG
 date: 2019-07-26 15:32:24.000000000 +09:00
 ---
+
 <p>
-7月22日 到 7月25日， 我参加了 在芬兰赫尔辛基的 2019年 IEEE 工业信息学国际会议，分享照片留作纪念。
+I participated in IEEE International Conference on Industrial Informatics, INDIN’19 during 22-25.Jul.2019 in Helsinki-Espoo, Finland. Some photos are posted here.
 </p>
 
 <p>
@@ -12,7 +13,7 @@ date: 2019-07-26 15:32:24.000000000 +09:00
 </p>
 
 <p>
-在会上，我做了本人文章 <em>An IoT-enabled Telerobotic-Assisted Healthcare System based on Inertial Motion Captureas</em> 的口头报告。
+I present my paper <em>An IoT-enabled Telerobotic-Assisted Healthcare System based on Inertial Motion Captureas</em> as oral presentation.
 </p>
 
 <p>
@@ -20,7 +21,7 @@ date: 2019-07-26 15:32:24.000000000 +09:00
 </p>
 
 <p>
-千湖之国，美丽的海岸线。
+There are thousands of lakes in Finland. The beautiful coastline after dinner.
 </p>
 
 <p>
@@ -28,7 +29,7 @@ date: 2019-07-26 15:32:24.000000000 +09:00
 </p>
 
 <p>
-碰上了坦佩雷大学做有关人机协作研究的研究人员，交流了许多。
+I met a researcher Ronal Bejarano from Tempere University. We talk a lot about the human-robot collaboration.
 </p>
 
 <p>
@@ -36,10 +37,9 @@ date: 2019-07-26 15:32:24.000000000 +09:00
 </p>
 
 <p>
-会议主会场选在埃斯波的阿尔托大学。
+The main venue of the conf is in Aalto University at Espoo, a beautiful campus.
 </p>
 
 <p>
 <img src="https://honghaolyu.github.io/assets/images/posts/1-5.jpg" alt="INDIN2019 Helsinki, Finland"/>
 </p>
-

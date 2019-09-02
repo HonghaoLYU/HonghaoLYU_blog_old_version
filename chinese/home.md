@@ -33,9 +33,18 @@ layout: page
 
 <div class="swiper-container">
     <div class="swiper-wrapper">
-        <div class="swiper-slide"> <img src="https://honghaolyu.github.io/assets/images/banner1.jpg" alt="1"/> Slide 1</div>
-        <div class="swiper-slide"> <img src="https://honghaolyu.github.io/assets/images/banner2.jpg" alt="2"/> Slide 2</div>
-        <div class="swiper-slide"> <img src="https://honghaolyu.github.io/assets/images/banner3.jpg" alt="3"/> Slide 3</div>
+        <div class="swiper-slide" style="text-align:center">
+          <a href="https://honghaolyu.github.io/english/2019/07/26/INDIN2019-Log.html" target="_blank"> <img src="https://honghaolyu.github.io/assets/images/posts/1-1.jpg"   alt="INDIN2019 赫尔辛基, 芬兰"/> </a> 
+          <h5>INDIN2019 Helsinki, Finland</h5>
+        </div>
+        <div class="swiper-slide" style="text-align:center"> 
+          <a href="https://github.com/HonghaoLYU" target="_blank"> <img src="https://honghaolyu.github.io/assets/images/banner1.jpg" alt="1"/> </a> 
+          <h5>INDIN2019 Helsinki, Finland</h5>
+        </div>
+        <div class="swiper-slide" style="text-align:center"> 
+          <a href="https://github.com/HonghaoLYU" target="_blank"> <img src="https://honghaolyu.github.io/assets/images/banner1.jpg" alt="1"/> </a> 
+          <h5>INDIN2019 Helsinki, Finland</h5>
+        </div>
     </div>
     <!-- 如果需要分页器 -->
     <div class="swiper-pagination"></div>
