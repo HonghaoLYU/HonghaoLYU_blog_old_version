@@ -9,10 +9,6 @@ The SmartGripper in Robotstudio is only a model without the simulation function 
 </p>
 
 <p>
-<video width="" height="" controls="controls"> <source src="https://honghaolyu.github.io/assets/media/video3-1.mp4" type="video/mp4" /> </video>
-</p>
-
-<p>
 gif form test
 </p>
 

@@ -34,7 +34,7 @@ My current research and topic is mainly about robotics, well, robotics is a pan 
 <div class="swiper-container">
     <div class="swiper-wrapper">
         <div class="swiper-slide" style="text-align:center"> 
-          <a href="https://honghaolyu.github.io/english/2019/07/26/indin2019-log.html" target="_blank"> <img src="https://honghaolyu.github.io/assets/images/posts/1-1.jpg" alt="INDIN2019 Helsinki, Finland"/> </a> 
+          <a href="https://honghaolyu.github.io/english/2019/07/26/indin19-log.html" target="_blank"> <img src="https://honghaolyu.github.io/assets/images/posts/1-1.jpg" alt="INDIN2019 Helsinki, Finland"/> </a> 
           <h5>INDIN2019 Helsinki, Finland</h5>
         </div>
         <div class="swiper-slide" style="text-align:center"> 
@@ -42,7 +42,7 @@ My current research and topic is mainly about robotics, well, robotics is a pan 
           <h5>ICCRS2019 Shenyang, China</h5>
         </div>
         <div class="swiper-slide" style="text-align:center"> 
-          <a href="https://honghaolyu.github.io/english/2019/09/01/yumi-smartgripper-simulation.html" target="_blank"> <img src="https://honghaolyu.github.io/assets/images/posts/3-1.gif" alt="1"/> </a> 
+          <a href="https://honghaolyu.github.io/english/2019/09/01/yumi-smartgripper-simulation.html" target="_blank"> <img src="https://honghaolyu.github.io/assets/images/posts/3-1.jpg" alt="1"/> </a> 
           <h5>SmartGripper Simulation in RobotStudio</h5>
         </div>
     </div>

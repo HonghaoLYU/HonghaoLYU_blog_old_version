@@ -9,10 +9,6 @@ date: 2019-09-01 15:32:24.000000000 +09:00
 </p>
 
 <p>
-<video width="" height="" controls="controls"> <source src="https://honghaolyu.github.io/assets/media/video3-1.mp4" type="video/mp4" /> </video>
-</p>
-
-<p>
 动图测试。
 </p>
 
