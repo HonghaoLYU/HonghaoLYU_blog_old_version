@@ -31,7 +31,7 @@ layout: default
     <div class="post-list__meta"><time datetime="{{post.date | date: date_to_xmlschema}}"
         class="post-list__meta--date date">{{ post.date | date: "%F"}}</time> &#8226; <span
         class="post-list__meta--tags tags">{{ post.tags | join:' ' }}</span><a class="btn-border-small"
-        href={{ post.url }}>继续阅读</a></div>
+        href={{ post.url }}>Read more</a></div>
     <hr class="post-list__divider" />
   </li>
   {% endfor %}
