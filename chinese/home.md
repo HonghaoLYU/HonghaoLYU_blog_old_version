@@ -42,8 +42,8 @@ layout: page
           <h5>ICCRS2019 沈阳, 辽宁</h5>
         </div>
         <div class="swiper-slide" style="text-align:center"> 
-          <a href="https://github.com/HonghaoLYU" target="_blank"> <img src="https://honghaolyu.github.io/assets/images/banner1.jpg" alt="1"/> </a> 
-          <h5>INDIN2019 Helsinki, Finland</h5>
+          <a href="https://honghaolyu.github.io/chinese/2019/09/01/yumi-smartgripper-simulation.html" target="_blank"> <img src="https://honghaolyu.github.io/assets/images/posts/3-1.gif" alt="1"/> </a> 
+          <h5>RobotStudio中的SmartGripper运动仿真</h5>
         </div>
     </div>
     <!-- 如果需要分页器 -->
