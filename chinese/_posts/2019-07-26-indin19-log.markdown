@@ -1,0 +1,67 @@
+---
+layout: post
+title: INDIN 2019 记录
+date: 2019-07-26 15:32:24.000000000 +09:00
+---
+<p>
+7月22日 到 7月25日， 我参加了 在芬兰赫尔辛基的 2019年 IEEE 工业信息学国际会议，分享照片留作纪念。
+</p>
+
+<p>
+2019年7月21日凌晨一点钟，我踏上了上海前往赫尔辛基的航班，前往芬兰参加INDIN2019的学术会议，并做为我们的会议文章做口头报告。这是本人第一次出国，心中不免有些忐忑，第二天早上6点钟到达目的地，便正式开始了本次学术会议的行程。
+</p>
+<p>
+在此还要特别感谢杨赓老师和庞智博老师对学生的关心和资金支持，得知我独自一人首次出国参加国际会议，帮我联系到了悉尼大学Yonghui Li教授的博士生王倩同学作为同伴。两人在机场汇合后前往各自住处安顿后，便紧接着前往阿尔托大学INDIN19的主会场进行现场注册和报道事宜，领取了相关的会议材料后，正式开始了为期四天的会议日程。
+</p>
+<p>
+会议第一天是组委会安排的以“人工智能的工业应用”为主题的tutorials和workshop。我分别去参加了”Tutorial 1: Hands-on Deep Learning for Industrial Informatic Applications” 和“Tutorial 3 -Data informatics-driven machine intelligence for human-oriented computing: From deep learning-based video processing to system”。学习了如何使用Google Colab and Jupyter Notebook 来搭建Keras的深度学习框架，同时在Tutorial 3中也听取了哈工大张海军老师分享的一些关于其在深度学习在智能穿搭系统方面的研究分享，同时与他做了一些本人研究方向相关的交流。
+</p>
+<p>
+会议第二天，首先由会议的general chair Valeriy Vyatkin教授主持进行了会议开幕式，开幕式之后，紧接着是福田敏男教授的keynote，主题为” Mutli-Scale Robotics - From Brachiation Robot to Micro/Nano Robotic Manipulation”, 分享了他本人这么多年来各种尺度的机器人的研究成果，不禁感慨，之所以福田教授能够当选为IEEE的主席，是由于他自己踏实和坚实的研究基础和积累，崇敬之情油然而生。好多他多年前研究的具体技术细节放在现在对自己来说都是很好的启发。上午keynote结束后，紧接着去参加了关于协作型机器人和智能人机交互有关的Special Sessions 和Technical Tracks. 其中让本人印象很深刻的是坦佩雷大学Ronal Bejarano 研究员所分享的关于基于Robotstudio和HTC Vive设计的一套关于yumi机器人在线人机协作操作培训的虚拟数字孪生系统，因为这次分享也结识了Ronal Bejarano 研究员，因为他的相关研究与本实验室的有部分研究紧密相关，会后两人也进行了深入和细致的技术交流，受益匪浅。第二天下午，午饭过后，紧接着是台大机电系Ren C. Luo教授关于“AIoT and Robotics Driving Paradigm Shift of Intelligent Manufacturing New Biz: Some Exemplary Best Practices” 的Keynote分享，罗教授主要分享了在当前AI和IoT的迅速发展趋势下，如何在工业制造领域落地，同时也分享了台湾大学智能机器人实验室的相关研究，深切感受到了罗教授的平易近人和踏实科研能力。之后下午的SS和TT，趁热打铁去听取了罗教授实验室同学所作出的关于家用服务机器人在非结构环境下的实时迅速物体识别的相关研究。晚上去参加了会议主办方举办的欢迎晚宴。
+</p>
+<p>
+会议第三天，上午8.30开始是本人文章的SS，SS主题为“Information models for IoT-enabled healthcare”，根据SS chair PoYang教授的安排，本人从最后一个调整到了第二位来进行，第一次作报告，稍微有点紧张，但是没有出什么大问题，顺利结束并回答了现在观众所提出的几个不是特别技术层面的问题。完成自己的Presentation之后，听取了PoYang教授关于“Ensemble of Receptive Fields for Training Central-Focused Convolutional Neural Networks”的报告。SS结束后紧接着去参加了第一场Industrial Forum，其中 Zhibo Pang教授在论坛上分享了当前火热的人工智能发展背景下，如何真正实际工业应用的人工智能落地措施，让人受益匪浅，感受到了工业前沿科学家真正的务实。会议下午主要是一场Stavros Tripakis 教授关于 “The Science of Software and System Design”的keynote，这应该是目前听过讲的技术实现细节最细的一场了，细致到具体的simulink仿真实现一一给大家分享。第三天晚上去参加了主办方举办的gala dinner.
+</p>
+<p>
+会议第四天，已经是会议的最后一天，早上8.30，由于时间安排，我需要代北京科技大学的李月萌同学作她的 “A Deep Learning Method for Material Performance Recognition in Laser Additive Manufacturing” presentation，由于不是自己的研究方向，前一天晚上充分进行了基础知识的恶补和排练，早上作为第一个presenter，没有了前一天的紧张感，这也是进步吧。迅速进行完代做的SS，上午还有第二场SS和部分TT，在走场过程中又碰到了tampere大学的Ronal研究员分享他的另一篇工作，顺便午饭时间进一步进行了进一步的深入交流。下午听取了最后一场keynote，又follow了张海军教授的SS，会议主体结束，之后举行了会议的闭幕式。鉴于篇幅，具体细节没有详细展开。当然还有许多收获包括在场外展台关于数字孪生和yumi结合agv控制的项目展示，都给了本人很大的启发。
+</p>
+<p>
+参加本次INDIN会议让本人受益匪浅，在学术论文写作方面的收获：如何将自己的工作表达的清晰和引人注目是一门学问，同时在论文作图方面，收获了更多的方法，也意识到了文章中示意图对文章内容的重要性，道路阻且长；口头报告演讲方面的收获：连续的两场口都报告，让自己受益匪浅，包括在PPT的准备，演讲过程中的展示以及如何聆听群众提出的问题，并回答道点子上，而不是害怕别人提问题。同时，也让自己意识到本人的口语水平还有很大的进步空间，还需要进步；科研方法思路方面的收获：做科研，能力是基础，但是idea才是关键，而且要善于总结当前的科学问题，得到自己研究的motivation，最重要的是从想法到技术，到应用的整体逻辑，要捋顺，加油！
+</p>
+
+<p>
+<img src="https://honghaolyu.github.io/assets/images/posts/1-1.jpg" alt="INDIN2019 Helsinki, Finland"/>
+</p>
+
+<p>
+在会上，我做了本人文章 <em>An IoT-enabled Telerobotic-Assisted Healthcare System based on Inertial Motion Captureas</em> 的口头报告。
+</p>
+
+<p>
+<img src="https://honghaolyu.github.io/assets/images/posts/1-2.jpg" alt="INDIN2019 Helsinki, Finland"/>
+</p>
+
+<p>
+千湖之国，美丽的海岸线。
+</p>
+
+<p>
+<img src="https://honghaolyu.github.io/assets/images/posts/1-3.jpg" alt="INDIN2019 Helsinki, Finland"/>
+</p>
+
+<p>
+碰上了坦佩雷大学做有关人机协作研究的研究人员，交流了许多。
+</p>
+
+<p>
+<img src="https://honghaolyu.github.io/assets/images/posts/1-4.jpg" alt="INDIN2019 Helsinki, Finland"/>
+</p>
+
+<p>
+会议主会场选在埃斯波的阿尔托大学。
+</p>
+
+<p>
+<img src="https://honghaolyu.github.io/assets/images/posts/1-5.jpg" alt="INDIN2019 Helsinki, Finland"/>
+</p>
+
