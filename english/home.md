@@ -34,33 +34,34 @@ My current research and topic is mainly about robotics, well, robotics is a pan 
 <div class="swiper-container">
     <div class="swiper-wrapper">
         <div class="swiper-slide" style="text-align:center"> 
-          <a href="https://honghaolyu.github.io/english/2019/07/26/indin19-log.html" target="_blank"> <img src="https://honghaolyu.github.io/assets/images/posts/1-1.jpg" alt="INDIN2019 Helsinki, Finland"/> </a> 
+          <a href="https://honghaolyu.github.io/english/2019/07/26/indin19-log.html" target="_blank"> 
+          <img src="https://honghaolyu.github.io/assets/images/posts/1-1.jpg" alt="INDIN2019 Helsinki, Finland"/> </a> 
           <h5>INDIN2019 Helsinki, Finland</h5>
         </div>
         <div class="swiper-slide" style="text-align:center"> 
-          <a href="https://honghaolyu.github.io/english/2019/08/14/ccrs2019-log.html" target="_blank"> <img src="https://honghaolyu.github.io/assets/images/posts/2-1.jpg" alt="CCRS2019 Shenyang, China"/> </a> 
+          <a href="https://honghaolyu.github.io/english/2019/08/14/ccrs2019-log.html" target="_blank"> 
+          <img src="https://honghaolyu.github.io/assets/images/posts/2-1.jpg" alt="CCRS2019 Shenyang, China"/> </a> 
           <h5>ICCRS2019 Shenyang, China</h5>
         </div>
         <div class="swiper-slide" style="text-align:center"> 
-          <a href="https://honghaolyu.github.io/english/2019/09/01/yumi-smartgripper-simulation.html" target="_blank"> <img src="https://honghaolyu.github.io/assets/images/posts/3-1.jpg" alt="1"/> </a> 
+          <a href="https://honghaolyu.github.io/english/2019/09/01/yumi-smartgripper-simulation.html" target="_blank"> 
+          <img src="https://honghaolyu.github.io/assets/images/posts/3-1.jpg" alt="1"/> </a> 
           <h5>SmartGripper Simulation in RobotStudio</h5>
+          <p> &ensp; </p>
         </div>
     </div>
     <!-- 如果需要分页器 -->
     <div class="swiper-pagination"></div>
-    
     <!-- 如果需要导航按钮 -->
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
-    
-    <!-- 如果需要滚动条 -->
-    <!-- <div class="swiper-scrollbar"></div> -->
 </div>
 
 <script>        
   var mySwiper = new Swiper ('.swiper-container', {
     direction: 'horizontal', // 垂直切换选项
     loop: true, // 循环模式选项
+    autoplay: true,
     // width: 600px;
     // height: 300px;
 

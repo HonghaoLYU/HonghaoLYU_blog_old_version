@@ -4,7 +4,7 @@ layout: page
 
 <h3>Patents:</h3>
 <p>
-[1] Yang Geng, <strong>Lv Honghao</strong>, Pang Gaoyang, Yang Huayong，Zhejiang University；A Dirigible Dual-arm Omnidirectional Mobile Nursing-care Robot: CN201810534638.1[P].2018-10-26. (Invention publication)
+[1] Yang Geng, <strong>Lv Honghao</strong>, Pang Gaoyang, Yang Huayong，Zhejiang University；A Dirigible Dual-arm Omnidirectional Mobile Nursing-care Robot: CN201810534638.1[P]. 2018-10-26. (Invention publication)
 </p>
 <p>
 [2] <strong>Lv Honghao</strong>, Hao Jingbin, Jia Kun，China University of Mining and Technology；A Smart Home System Based on Labview and Tcp/Ip Network Protocol: CN201721694857.3[P]. 2017-12-07. (Utility model)
@@ -15,10 +15,13 @@ layout: page
 
 <h3>Journal Papers:</h3>
 <p>
-[1] Yang Geng, <strong>Lv Honghao</strong>, Chen Feiyu, Pang Zhibo, Wang Jin, Yang Huayong, Zhang Junhui*, “A Novel Gesture Recognition System for Intelligent Interaction with a Nursing-Care Assistant Robot” Applied Sciences-Basel, IF:2.217, vol. 8, (12), art. no. 2349, Dec. 2018. DOI: 10.3390/app8122349, 2018.
+[1] Huiying Zhou, <strong>Lv Honghao</strong>, Zhibo Pang, Xiaoyan Huang, Huayong Yang, Geng Yang*, “IoT-enabled Dual-arm Motion Capture and Mapping for Telerobotics in Homecare” IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2019 (accepted) 
 </p>
 <p>
-[2] Chen Feiyu, <strong>Lv Honghao</strong>, Pang Zhibo, Zhang Junhui, Hou Yonghong, Gu Ying, Yang Huayong and G. Yang*, “WristCam: A Wearable Sensor for Hand Trajectory Gesture Recognition and Intelligent Human-Robot Interaction” IEEE Sensors Journal. IF: 3.076, pp. 1-1, Oct. 2018. DOI: 10.1109/JSEN, 2018.
+[2] Yang Geng, <strong>Lv Honghao</strong>, Chen Feiyu, Pang Zhibo, Wang Jin, Yang Huayong, Zhang Junhui*, “A Novel Gesture Recognition System for Intelligent Interaction with a Nursing-Care Assistant Robot” Applied Sciences-Basel, IF:2.217, vol. 8, (12), art. no. 2349, Dec. 2018. DOI: 10.3390/app8122349.
+</p>
+<p>
+[3] Chen Feiyu, <strong>Lv Honghao</strong>, Pang Zhibo, Zhang Junhui, Hou Yonghong, Gu Ying, Yang Huayong and G. Yang*, “WristCam: A Wearable Sensor for Hand Trajectory Gesture Recognition and Intelligent Human-Robot Interaction” IEEE Sensors Journal. IF: 3.076, pp. 1-1, Oct. 2018. DOI: 10.1109/JSEN.
 </p>
 
 <h3>Conference Papers:</h3>

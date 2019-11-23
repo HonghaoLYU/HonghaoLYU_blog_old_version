@@ -34,39 +34,39 @@ layout: page
 <div class="swiper-container">
     <div class="swiper-wrapper">
         <div class="swiper-slide" style="text-align:center">
-          <a href="https://honghaolyu.github.io/chinese/2019/07/26/indin19-log.html" target="_blank"> <img src="https://honghaolyu.github.io/assets/images/posts/1-1.jpg"   alt="INDIN2019 赫尔辛基, 芬兰"/> </a> 
+          <a href="https://honghaolyu.github.io/chinese/2019/07/26/indin19-log.html" target="_blank"> 
+          <img src="https://honghaolyu.github.io/assets/images/posts/1-1.jpg"   alt="INDIN2019 赫尔辛基, 芬兰"/> </a> 
           <h5>INDIN2019 赫尔辛基, 芬兰</h5>
         </div>
         <div class="swiper-slide" style="text-align:center"> 
-          <a href="https://honghaolyu.github.io/chinese/2019/08/14/ccrs2019-log.html" target="_blank"> <img src="https://honghaolyu.github.io/assets/images/posts/2-1.jpg" alt="CCRS2019 Shenyang, China"/> </a> 
+          <a href="https://honghaolyu.github.io/chinese/2019/08/14/ccrs2019-log.html" target="_blank"> 
+          <img src="https://honghaolyu.github.io/assets/images/posts/2-1.jpg" alt="CCRS2019 Shenyang, China"/> </a> 
           <h5>ICCRS2019 沈阳, 辽宁</h5>
         </div>
         <div class="swiper-slide" style="text-align:center"> 
-          <a href="https://honghaolyu.github.io/chinese/2019/09/01/yumi-smartgripper-simulation.html" target="_blank"> <img src="https://honghaolyu.github.io/assets/images/posts/3-1.jpg" alt="1"/> </a> 
+          <a href="https://honghaolyu.github.io/chinese/2019/09/01/yumi-smartgripper-simulation.html" target="_blank"> 
+          <img src="https://honghaolyu.github.io/assets/images/posts/3-1.jpg" alt="1"/> </a> 
           <h5>RobotStudio中的SmartGripper运动仿真</h5>
+          <p> &ensp; </p>
         </div>
     </div>
     <!-- 如果需要分页器 -->
     <div class="swiper-pagination"></div>
-    
     <!-- 如果需要导航按钮 -->
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
-    
-    <!-- 如果需要滚动条 -->
-    <!-- <div class="swiper-scrollbar"></div> -->
 </div>
 
 <script>        
   var mySwiper = new Swiper ('.swiper-container', {
     direction: 'horizontal', // 垂直切换选项
     loop: true, // 循环模式选项
-    
+    autoplay: true,
     // 如果需要分页器
     pagination: {
       el: '.swiper-pagination',
     },
-    
+    // paginationClickable :true,
     // 如果需要前进后退按钮
     navigation: {
       nextEl: '.swiper-button-next',
