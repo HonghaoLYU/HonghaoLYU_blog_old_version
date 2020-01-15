@@ -18,6 +18,6 @@ This project proposed an innovative hand motion trajectory (HMT) gesture recogni
 </p>
 <table>
 <tr>
-<td> <iframe text-align="center" src="//player.bilibili.com/player.html?aid=53345688&cid=93330430&page=1" scrolling="yes" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="100%"> </iframe> </td>
+<td> <iframe text-align="center" src="//player.bilibili.com/player.html?aid=81541015&cid=139654689&page=1" scrolling="yes" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="100%"> </iframe> </td>
 </tr>
 </table>

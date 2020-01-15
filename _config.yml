@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 creator: Lv Honghao
 title: Honghao Lv
-subtitle: Lhhzing's hiding place
+subtitle: Lhhzing's personal blog
 welcome_message: <a href="/assets/documents/HonghaoLyu_CV.pdf" target="_blank">Download my CV</a>
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
