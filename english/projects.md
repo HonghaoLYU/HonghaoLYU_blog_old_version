@@ -4,7 +4,10 @@ layout: page
 
 <h3>Application of Tele-Robotic Technology for Auxiliary Diagnosis and Treatment of COVID−19 in Isolation Ward</h3>
 <p>
-This project conducts the teleoperation of the dual-arm robot YuMi base the multi-node inertial sensing motion capture technology, which can mapping the diagnosis and treatment operation behavior of the doctors and caregivers. This project aims to minimize the need for medical staff into the isolation ward, and reducing the cross-infection between the COVID-19 patients and the doctors or the caregivers. At present, the hardware construction and hardware debugging of the assembly platform have been completed, and the preliminary clinical verification has been carried out. In view of the related reasons, the video, pictures and related codes will be released at the right time.
+This project conducts the teleoperation of the dual-arm robot YuMi base the multi-node inertial sensing motion capture technology, which can mapping the diagnosis and treatment operation behavior of the doctors and caregivers. This project aims to minimize the need for medical staff into the isolation ward, and reducing the cross-infection between the COVID-19 patients and the doctors or the caregivers. At present, the hardware construction and hardware debugging of the assembly platform have been completed, and the preliminary clinical verification has been carried out. In view of the related reasons, the related videos and related codes will be released at the right time.
+</p>
+<p>
+<img src="/assets/images/2019nCOV_certification.jpg" width="500" height="300" alt="浙大一院展示验证"/>
 </p>
 
 <h3>AHuman-robot Collaborative Assembly Based on Target Recognition Using Kinect</h3>
@@ -13,7 +16,7 @@ In this project, I use the Depth camera kinectV2 to obtain the 2D position coord
 </p>
 <table>
 <tr>
-<td> <iframe text-align="center" src="//player.bilibili.com/player.html?aid=53345688&cid=93330430&page=1" scrolling="yes" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="100%"> </iframe> </td>
+<td> <video src="/assets/media/yumi_kinect_grip.mp4" type="video/mp4" controls="controls" width="500" height="300"> 您的浏览器不支持播放该视频！</video> </td>
 </tr>
 </table>
 
