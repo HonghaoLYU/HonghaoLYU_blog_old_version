@@ -49,3 +49,12 @@ This project is my 2nd SRTP project in CUMT. In this work, a smart home system i
 <td> <video src="/assets/media/cumt2017srtp.mp4" type="video/mp4" controls="controls" width="500" height="300"> 您的浏览器不支持播放该视频！</video> </td>
 </tr>
 </table>
+
+
+<h3>R&D of a portable friction coefficient tester-(CUMT 2016.04-2017.04)</h3>
+<p>
+This project is my first SRTP project in CUMT. In this work, a prototype was built by the self-designed mechanical structure and data processing program based on LabVIEW, which has been tested successfully. I am in charge of designing the hardware circuit and programming the whole LabVIEW codes. Compared with most of the current brake friction test bench, it has the outstanding advantages and application significance, such as convenient installation, strong portability, greatly reduced cost, small and portable volume, strong field application ability, easy data acquisition. 
+</p>
+<p>
+<img src="/assets/images/cumt2016srtp.jpg" width="500" alt="2016校级大创"/>
+</p>
