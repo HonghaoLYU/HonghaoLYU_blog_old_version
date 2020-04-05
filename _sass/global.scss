@@ -329,7 +329,7 @@ td:last-child {
   .menu {
     display: block;
     padding: 0 0 0 0;
-    font-size: 1.8em;
+    font-size: 2em;
     color: lighten($gray-dark, 10%);
   }
   
@@ -337,13 +337,16 @@ td:last-child {
       display: block;
       margin-bottom: .7em;
       text-align: center;
+      text-transform:uppercase;
+  
       a {
         color: cornflowerblue;
         font-weight: bold;
-        font-family:Arial,Verdana,Sans-serif;
+        // font-family:Arial,Verdana,Sans-serif;
+        font-family:"Trebuchet MS", "Microsoft JhengHei", Arial, Helvetica, sans-serif;
 
         &:hover {
-          color: $gray-dark;
+          color: $blue;
         }
 
         @media screen and (max-width: 1040px) {
