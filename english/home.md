@@ -33,6 +33,11 @@ My current research and topic is mainly about robotics, well, robotics is a pan 
 
 <div class="swiper-container">
     <div class="swiper-wrapper">
+        <div class="swiper-slide" style="text-align:center">
+          <a href="https://honghaolyu.github.io/chinese/projets" target="_blank"> 
+          <img src="https://honghaolyu.github.io//assets/images/2019nCOV_certification.jpg"  width="500" height="300" alt="nCoV Project Hangzhou，The FIRST HOSIPITAL OF ZHEJIANG PROVINCE"/> </a> 
+          <h5>nCoV Project Hangzhou，The FIRST HOSIPITAL OF ZHEJIANG PROVINCE</h5>
+        </div>
         <div class="swiper-slide" style="text-align:center"> 
           <a href="https://honghaolyu.github.io/english/2019/07/26/indin19-log.html" target="_blank"> 
           <img src="https://honghaolyu.github.io/assets/images/posts/1-1.jpg" alt="INDIN2019 Helsinki, Finland"/> </a> 
