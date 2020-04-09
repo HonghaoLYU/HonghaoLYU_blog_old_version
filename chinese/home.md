@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<h2>介绍</h2>
+<h2>介绍：</h2>
 
 <p> 
 感谢来访. 这是我的个人博客. 我目前是一名在读研究生,在此分享本人的项目和研究进展，以及其他日常。
@@ -27,7 +27,7 @@ layout: page
 
 <!-- <video src="https://honghaolyu.github.io/assets/media/demo.mp4" type="video/mp4" controls="controls" width="500" height="300"> 您的浏览器不支持播放该视频！</video> -->
 
-<h2>近況</h2>
+<h2>近況：</h2>
 
 <script src="/js/swiper.min.js"></script>
 
