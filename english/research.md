@@ -18,13 +18,19 @@ layout: page
 
 <h3>Journal Papers:</h3>
 <p>
-[1] Huiying Zhou, <strong>Lv Honghao</strong>, Zhibo Pang, Xiaoyan Huang, Huayong Yang, Geng Yang*, “IoT-enabled Dual-arm Motion Capture and Mapping for Telerobotics in Homecare” IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2019 (accepted) 
+[1] <strong>Lv Honghao</strong>, Geng Yang*, Huiying Zhou, Xiaoyan Huang, Huayong Yang, Zhibo Pang, “IoT-enabled Dual-arm Motion Capture and Mapping for Telerobotics in Home Care,” IEEE Journal of Translational Engineering in Health and Medicine (IEEE JTEHM), IF: 2.075, Jun. 2020. (Accepted)
+<p>
+<p>
+[2] Geng Yang*, <strong>Lv Honghao</strong>, Zhiyu Zhang, Liu Yang, Siqi You, Juan Du, Huayong Yang, , “Keep Healthcare Workers Safe: Application of Teleoperated Robot in Isolation Ward for COVID-19 Prevention and Control” Chinese Journal of Mechanical Engineering (CJME), IF: 1.413, vol. 33, no. 47, Jun. 2020. DOI: 10.1186/s10033-020-00464-0
 </p>
 <p>
-[2] Yang Geng, <strong>Lv Honghao</strong>, Chen Feiyu, Pang Zhibo, Wang Jin, Yang Huayong, Zhang Junhui*, “A Novel Gesture Recognition System for Intelligent Interaction with a Nursing-Care Assistant Robot” Applied Sciences-Basel, IF:2.217, vol. 8, (12), art. no. 2349, Dec. 2018. DOI: 10.3390/app8122349.
+[3] Huiying Zhou, <strong>Lv Honghao</strong>, Zhibo Pang, Xiaoyan Huang, Huayong Yang, Geng Yang*, “IoT-enabled Dual-arm Motion Capture and Mapping for Telerobotics in Homecare” IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), vol. 24, no. 6, pp. 1541-1549, Jun. 2020. DOI: 10.1109/JBHI.2019.2953885
 </p>
 <p>
-[3] Chen Feiyu, <strong>Lv Honghao</strong>, Pang Zhibo, Zhang Junhui, Hou Yonghong, Gu Ying, Yang Huayong and G. Yang*, “WristCam: A Wearable Sensor for Hand Trajectory Gesture Recognition and Intelligent Human-Robot Interaction” IEEE Sensors Journal. IF: 3.076, pp. 1-1, Oct. 2018. DOI: 10.1109/JSEN.
+[4] Yang Geng, <strong>Lv Honghao</strong>, Chen Feiyu, Pang Zhibo, Wang Jin, Yang Huayong, Zhang Junhui*, “A Novel Gesture Recognition System for Intelligent Interaction with a Nursing-Care Assistant Robot” Applied Sciences-Basel, IF:2.217, vol. 8, (12), art. no. 2349, Dec. 2018. DOI: 10.3390/app8122349.
+</p>
+<p>
+[5] Chen Feiyu, <strong>Lv Honghao</strong>, Pang Zhibo, Zhang Junhui, Hou Yonghong, Gu Ying, Yang Huayong and G. Yang*, “WristCam: A Wearable Sensor for Hand Trajectory Gesture Recognition and Intelligent Human-Robot Interaction” IEEE Sensors Journal, IF: 3.076, pp. 1-1, Oct. 2018. DOI: 10.1109/JSEN.
 </p>
 
 <h3>Conference Papers:</h3>
