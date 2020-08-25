@@ -35,7 +35,7 @@ layout: page
     <div class="swiper-wrapper">
         <div class="swiper-slide" style="text-align:center">
           <a href="https://honghaolyu.github.io/chinese/projets" target="_blank"> 
-          <img src="https://honghaolyu.github.io//assets/images/intentplus.jpg"  width="500" height="300" alt="互联网+创赛 金奖， 杭州"/> </a> 
+          <img src="https://honghaolyu.github.io//assets/images/internetplus.jpg"  width="500" height="300" alt="互联网+创赛 金奖， 杭州"/> </a> 
           <h5>互联网+创赛 金奖， 杭州</h5>
         </div>
         <div class="swiper-slide" style="text-align:center">
