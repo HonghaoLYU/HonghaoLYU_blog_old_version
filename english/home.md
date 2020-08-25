@@ -35,6 +35,11 @@ My current research and topic is mainly about robotics, well, robotics is a pan 
     <div class="swiper-wrapper">
         <div class="swiper-slide" style="text-align:center">
           <a href="https://honghaolyu.github.io/chinese/projets" target="_blank"> 
+          <img src="https://honghaolyu.github.io//assets/images/internetplus.jpg"  width="500" height="300" alt="Internet+ Competition, Gold Prize, Hangzhou"/> </a> 
+          <h5>Internet+ Competition, Gold Prize, Hangzhou</h5>
+        </div>
+        <div class="swiper-slide" style="text-align:center">
+          <a href="https://honghaolyu.github.io/chinese/projets" target="_blank"> 
           <img src="https://honghaolyu.github.io//assets/images/2019nCOV_certification.jpg"  width="500" height="300" alt="nCoV Project Hangzhou，The FIRST HOSIPITAL OF ZHEJIANG PROVINCE"/> </a> 
           <h5>nCoV Project Hangzhou，The FIRST HOSIPITAL OF ZHEJIANG PROVINCE</h5>
         </div>
