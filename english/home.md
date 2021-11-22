@@ -18,6 +18,10 @@ My current research and topic is mainly about robotics, well, robotics is a pan 
 
 <table>
   <tr>
+    <th style="font-size:1.1em; text-align:left;">Sep. 2021 to current:</th>
+    <td style="font-size:1.1em; text-align:left;" >KTH Royal Institute of Technology (KTH), Visiting Ph.D. Student, ISE, EECS.</td>
+  </tr>
+  <tr>
     <th style="font-size:1.1em; text-align:left;">Feb. 2018 to current:</th>
     <td style="font-size:1.1em; text-align:left;" >Zhejiang University (ZJU), Ph.D. Candidate, Mechatronic engineering.</td>
   </tr>
