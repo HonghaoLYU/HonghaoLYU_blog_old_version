@@ -13,21 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-# creator: Lv Honghao
-# title: Honghao Lv
-# subtitle: Honghao's personal blog
-# welcome_message: <a href="/assets/documents/HonghaoLyu_CV.pdf" target="_blank">Download my CV</a>
-# # email: your-email@example.com
-# description: >- # this means to ignore newlines until "baseurl:"
-#  Some sharing and posts of my daily and research.
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# # twitter_username: jekyllrb
-# # github_username:  jekyll
-=======
 creator: Lv Honghao
 title: Honghao Lv
-subtitle: Lhhzing's personal blog
+subtitle: Honghao's personal blog
 welcome_message: <a href="/assets/documents/HonghaoLyu_CV.pdf" target="_blank">Download my CV</a>
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -37,32 +25,34 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
+
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+theme: minima
+
 plugins:
   - jekyll-feed
 
-# # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-# cover_color: blue
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: blue
 
 # The blog button should not be removed.
-# chinese_button:
-#     title: 中文
-#     description: My Chinese Main Page
+chinese_button:
+    title: 中文
+    description: My Chinese Main Page
 
-# english_button:
-#     title: English
-#     description: My English Main Page
+english_button:
+    title: English
+    description: My English Main Page
 
 # Social
-# social:
-#     # weibo: 2606809017
-#     github: HonghaoLYU
-#     # twitter: onevcat
-#     # gplus: 107108267983477358170
-#     mail: lvhonghao@zju.edu.cn
-#     # bilibili: 38758994
-#     weixin: vfDi7-TYXTorn6lHvJ6fGw
-#     researchgate: Honghao_Lv2
-#     googlescholar: 4DrzwMcAAAAJ&hl=en
+social:
+    # weibo: 2606809017
+    github: HonghaoLYU
+    # twitter: onevcat
+    # gplus: 107108267983477358170
+    mail: lvhonghao@zju.edu.cn
+    # bilibili: 38758994
+    weixin: vfDi7-TYXTorn6lHvJ6fGw
+    researchgate: Honghao_Lv2
+    googlescholar: 4DrzwMcAAAAJ&hl=en
