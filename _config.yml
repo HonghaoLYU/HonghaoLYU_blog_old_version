@@ -24,6 +24,18 @@
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # # twitter_username: jekyllrb
 # # github_username:  jekyll
+=======
+creator: Lv Honghao
+title: Honghao Lv
+subtitle: Lhhzing's personal blog
+welcome_message: <a href="/assets/documents/HonghaoLyu_CV.pdf" target="_blank">Download my CV</a>
+# email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+ Some sharing and posts of my daily and research.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+# github_username:  jekyll
 
 # Build settings
 markdown: kramdown
